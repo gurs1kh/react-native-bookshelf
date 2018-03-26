@@ -1,5 +1,5 @@
 {
-  "name": "bookshelf",
+  "name": "react-native-bookshelf",
   "version": "0.13.2",
   "description": "A lightweight ORM for PostgreSQL, MySQL, and SQLite3",
   "main": "bookshelf.js",
@@ -32,6 +32,7 @@
     "bluebird": "^3.4.3",
     "chalk": "^2.3.0",
     "create-error": "~0.3.1",
+    "events": "^2.0.0",
     "inflection": "^1.5.1",
     "inherits": "~2.0.1",
     "lodash": "^4.13.1"
@@ -59,7 +60,7 @@
     "uuid": "^3.1.0"
   },
   "peerDependencies": {
-    "knex": ">=0.6.10 <0.15.0"
+    "react-native-knex": ">=0.6.10 <0.15.0"
   },
   "buildDependencies": [
     "babel-cli",

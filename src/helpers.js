@@ -3,7 +3,7 @@
 // Helpers
 // ---------------
 const _     = require('lodash');
-const chalk = require('chalk')
+// const chalk = require('chalk')
 
 const helpers = {
 
@@ -72,11 +72,11 @@ const helpers = {
   },
 
   error: function(msg) {
-    console.log(chalk.red(msg))
+    console.log(msg)
   },
 
   warn: function(msg) {
-    console.log(chalk.yellow(msg))
+    console.log(msg)
   },
 
   deprecate: function(a, b) {
