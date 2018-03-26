@@ -1,5 +1,8 @@
 # [bookshelf.js](http://bookshelfjs.org)
 
+**This is a port for react-native, therefore the plugin system is not supported.**
+**Please manually patch Bookshelf.**
+
 [![NPM Version](https://img.shields.io/npm/v/bookshelf.svg?style=flat)](https://www.npmjs.com/package/bookshelf)
 [![Build Status](https://travis-ci.org/bookshelf/bookshelf.svg?branch=master)](https://travis-ci.org/bookshelf/bookshelf)
 [![Dependency Status](https://david-dm.org/bookshelf/bookshelf/status.svg)](https://david-dm.org/bookshelf/bookshelf)
