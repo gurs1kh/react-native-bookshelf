@@ -1,6 +1,6 @@
 {
   "name": "react-native-bookshelf",
-  "version": "0.13.2",
+  "version": "0.13.3",
   "description": "A lightweight ORM for PostgreSQL, MySQL, and SQLite3",
   "main": "bookshelf.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "homepage": "http://bookshelfjs.org",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bookshelf/bookshelf.git"
+    "url": "git://github.com/wisqo-smart/react-native-bookshelf.git"
   },
   "keywords": [
     "orm",
