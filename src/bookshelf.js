@@ -1,5 +1,6 @@
 import { extend, result, isString, isArray, isFunction, each } from 'lodash';
 import helpers from './helpers';
+import plugins from './plugins';
 
 // We've supplemented `Events` with a `triggerThen` method to allow for
 // asynchronous event handling via promises. We also mix this into the
@@ -292,13 +293,13 @@ function Bookshelf(knex) {
     plugin(plugin, options) {
       if (isString(plugin)) {
         try {
-          // require('./plugins/' + plugin)(this, options);
+          plugins[plugin](this, options);
         } catch (e) {
           if (e.code !== 'MODULE_NOT_FOUND') {
             throw e;
           }
           if (!process.browser) {
-            // require(plugin)(this, options)
+            plugins[plugin](this, options)
           }
         }
       } else if (isArray(plugin)) {
