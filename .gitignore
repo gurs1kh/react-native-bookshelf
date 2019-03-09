@@ -6,7 +6,7 @@ node_modules
 npm-debug.log
 tmp
 coverage/
-lib/
+src/
 build/
 index.html
 docs/
