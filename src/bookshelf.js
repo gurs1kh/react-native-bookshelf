@@ -25,7 +25,7 @@ import Errors from './errors';
  * @param {Knex} knex Knex instance.
  */
 function Bookshelf(knex) {
-  if (!knex || knex.name !== 'knex') {
+  if (!knex) { // || knex.name !== 'knex') { //commenting out due to issues with knex-expo give name "_"
     throw new Error('Invalid knex instance');
   }
   const bookshelf = {
